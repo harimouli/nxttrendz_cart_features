@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.order-summery-container {
+  align-self: flex-end;
+  width: 300px;
+  border-style: solid;
+  border: none;
+}
+
+@media (max-width: 568px) {
+  .order-summery-container {
+    align-self: center;
+  }
+}
+.check-out-btn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: white;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+  border:none;
+}
+@media (max-width: 568px) {
+  .check-out-btn {
+    display: none;
+  }
+}
+.order-total {
+  color: #616e7c;
+  font-weight: 500;
+}
+.order-total-price {
+  color: #171f46;
+  font-weight: 600;
+}
+
+.no-of-items{
+  color: #616e7c;
+}
